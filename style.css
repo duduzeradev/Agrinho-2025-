@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background: url('https://images.unsplash.com/photo-1523602091759-1c74b9f7b003') no-repeat center center/cover;
+    background: images (img/090221171402_capa_png.png')
     color: white;
     text-align: center;
     padding: 60px 20px;
