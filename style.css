@@ -1,56 +1,70 @@
-/* Reseta alguns estilos padrões */
-* {
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f4f1ea;
+    color: #3e3e3e;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-/* Estilos gerais da página */
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #e0f7e0; /* Fundo verde claro que remete ao campo */
-    color: #333;
-    line-height: 1.6;
-    padding: 20px;
-}
-
-/* Cabeçalho */
 header {
-    background-color: #4CAF50; /* Verde campo */
+    background-color: #6b8e23; /* Verde oliva */
     color: white;
+    padding: 20px;
     text-align: center;
-    padding: 40px;
-    border-radius: 10px;
-    margin-bottom: 20px;
 }
 
-header h1 {
-    font-size: 2.5em;
-    font-family: 'Georgia', serif;
-    font-weight: bold;
-}
-
-header p {
-    font-size: 1.2em;
-    font-style: italic;
-}
-
-/* Navegação */
 nav {
+    background-color: #d2b48c; /* Tom terroso claro */
+    padding: 10px;
     text-align: center;
-    margin-bottom: 20px;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
 }
 
 nav a {
     text-decoration: none;
+    color: #3e3e3e;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #556b2f; /* Verde mais escuro */
+}
+
+section {
+    padding: 30px;
+    background-color: #fff8dc; /* Cor palha */
+    border-bottom: 1px solid #ccc;
+}
+
+section h2 {
+    color: #556b2f;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #8b5e3c; /* Marrom escuro */
     color: white;
-    padding: 10px 20px;
-    background-color: #333;
-    border-radius: 5px;
-    margin: 0 10px;
-    font-size: 1.1em;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Responsivo para celular */
+@media (max-width: 600px) {
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
 }
